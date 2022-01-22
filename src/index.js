@@ -7,9 +7,9 @@ import { MultipleCustomHooks } from '../src/components/03-examples/MultipleCusto
 // import {HookApp} from '../src/HookApp';
 // import { SimpleForm } from './components/02-useEffect/SimpleForm';
 // import {FocusScreen} from '../src/components/04-useRef/FocusScreen'
-// import {RealExampleRef} from '../src/components/04-useRef/RealExampleRef'
+import {RealExampleRef} from '../src/components/04-useRef/RealExampleRef'
 
 ReactDOM.render(
-  <MultipleCustomHooks />,
+  <RealExampleRef />,
   document.getElementById('app')
 );

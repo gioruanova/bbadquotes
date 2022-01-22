@@ -11,16 +11,16 @@ export const RealExampleRef = () => {
 
     return (
         <div>
-            <h1>Real Example Ref</h1>
+            <h1></h1>
             <hr />
             {show && <MultipleCustomHooks />}
             <button
-                className="btn btn-primary mt-5"
+                className="btn"
                 onClick={() => {
                     setShow(!show);
                 }}
             >
-                show/hide
+                Say my name!
             </button>
 
 
