@@ -3,7 +3,7 @@ import { useFetch } from '../../hooks/useFetch';
 import { useCounter } from '../../hooks/useCounter';
 import '../02-useEffect/effects.css';
 
-import bbad from '../../images/bbad.png'
+// import bbad from '../../images/bbad.png'
 
 export const MultipleCustomHooks = () => {
 
@@ -16,7 +16,7 @@ export const MultipleCustomHooks = () => {
     return (
         <div>
             
-            <img className="logo" src={bbad} alt="bbadlogo"></img>
+            {/* <img className="logo" src={bbad} alt="bbadlogo"></img> */}
             <h1>Quotes</h1>
             <hr />
 
