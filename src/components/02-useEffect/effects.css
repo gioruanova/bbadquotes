@@ -1,0 +1,59 @@
+body {
+  padding: 1rem;
+  background-color: rgb(46, 46, 46);
+  text-align: center;
+  align-items: center;
+}
+
+p {
+  color: white;
+  margin: 1rem !important;
+}
+
+h1 {
+  color: #2f7e2f;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.blockquote-footer {
+  color: green;
+}
+
+.btn {
+  background-color: rgb(56, 85, 56);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left !important;
+  margin-top: 3rem;
+}
+
+button:hover {
+  color: green!important;
+}
+
+.logo {
+  padding-top: 2rem;
+  max-width: 20rem;
+  text-align: center;
+}
+
+.footer-dev {
+  color: green;
+  padding-top: 4rem;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.alert {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mb-0 {
+  margin-bottom: 1rem !important;
+}
