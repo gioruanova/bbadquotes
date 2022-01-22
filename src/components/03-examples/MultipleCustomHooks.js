@@ -7,17 +7,17 @@ import '../02-useEffect/effects.css';
 
 export const MultipleCustomHooks = () => {
 
-    const { counter, increment } = useCounter(1);
-    const { loading, data } = useFetch(`https://www.breakingbadapi.com/api/quotes/${counter}`);
+    // const { counter, increment } = useCounter(1);
+    // const { loading, data } = useFetch(`https://www.breakingbadapi.com/api/quotes/${counter}`);
 
-    const { author, quote } = !!data && data[0];
+    // const { author, quote } = !!data && data[0];
 
 
     return (
         <div>
-            
+
             {/* <img className="logo" src={bbad} alt="bbadlogo"></img> */}
-            <h1>Quotes</h1>
+            {/* <h1>Quotes</h1>
             <hr />
 
             {loading
@@ -40,7 +40,7 @@ export const MultipleCustomHooks = () => {
                 className="btn"
                 onClick={increment}>
                 Next Quote
-            </button>
+            </button> */}
             <footer className="footer-dev">Developed by Giorgio Ruanova</footer>
         </div>
     );
