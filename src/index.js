@@ -6,10 +6,10 @@ import ReactDOM from 'react-dom';
 // import {HookApp} from '../src/HookApp';
 // import { SimpleForm } from './components/02-useEffect/SimpleForm';
 // import { MultipleCustomHooks } from '../src/components/03-examples/MultipleCustomHooks';
-// import {FocusScreen} from '../src/components/04-useRef/FocusScreen'
-import {RealExampleRef} from '../src/components/04-useRef/RealExampleRef'
+import {FocusScreen} from '../src/components/04-useRef/FocusScreen'
+// import {RealExampleRef} from '../src/components/04-useRef/RealExampleRef'
 
 ReactDOM.render(
-  <RealExampleRef />,
+  <FocusScreen />,
   document.getElementById('app')
 );
