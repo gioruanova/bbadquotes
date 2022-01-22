@@ -5,11 +5,11 @@ import ReactDOM from 'react-dom';
 // import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
 // import {HookApp} from '../src/HookApp';
 // import { SimpleForm } from './components/02-useEffect/SimpleForm';
-// import { MultipleCustomHooks } from '../src/components/03-examples/MultipleCustomHooks';
-import {FocusScreen} from '../src/components/04-useRef/FocusScreen'
+import { MultipleCustomHooks } from '../src/components/03-examples/MultipleCustomHooks';
+// import {FocusScreen} from '../src/components/04-useRef/FocusScreen'
 // import {RealExampleRef} from '../src/components/04-useRef/RealExampleRef'
 
 ReactDOM.render(
-  <FocusScreen />,
+  <MultipleCustomHooks />,
   document.getElementById('app')
 );
