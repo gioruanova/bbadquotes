@@ -10,5 +10,5 @@ import { MultipleCustomHooks } from '../src/components/03-examples/MultipleCusto
 
 ReactDOM.render(
   <MultipleCustomHooks />,
-  document.getElementById('root')
+  document.getElementById('app')
 );
