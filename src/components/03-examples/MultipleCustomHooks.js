@@ -1,6 +1,6 @@
 import React from 'react';
-import { useFetch } from '../../hooks/useFetch';
-import { useCounter } from '../../hooks/useCounter';
+// import { useFetch } from '../../hooks/useFetch';
+// import { useCounter } from '../../hooks/useCounter';
 import '../02-useEffect/effects.css';
 
 // import bbad from '../../images/bbad.png'
