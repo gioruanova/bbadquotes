@@ -7,10 +7,11 @@ import bbad from '../../images/bbad.png'
 
 export const MultipleCustomHooks = () => {
 
-    const { counter, increment } = useCounter(1);
+    const { counter, increment } = useCounter(Math.floor(Math.random() * 30));
     const { loading, data } = useFetch(`https://www.breakingbadapi.com/api/quotes/${counter}`);
     const { author, quote } = !!data && data[0];
 
+    
 
     return (
         <div>
